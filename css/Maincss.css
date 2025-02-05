@@ -1,0 +1,131 @@
+.body{
+  /* initial idea colors */
+    /* background-color:#1C1C1E; */
+    background-size: cover;
+  /* option1  */
+  /* background-color: #F8F8F8; */
+  /* background-color: #9d9d9d; */
+  /* background: radial-gradient(circle, #9d9d9d, #8F98A3) gradient1; */
+  background: linear-gradient(to bottom right, #D0D8E5, #BCBFC4, #A8AFB7);
+  }
+   
+  h1, h2, h3 { /* Headings */
+    /* color: #28ABE2; */
+    /* option2 */
+    
+}
+    
+.col{
+/* option */
+/* color: #F2B701 ; */
+color:  rgb(30, 30, 114);
+/* color: #28ABE2; */
+    /* color: #C89F5D; */
+    font-weight:900;
+    font-size: larger;
+}
+.align-content-center{
+   margin-left: 15%;
+   margin-right: 15%;
+}
+.fw-bold{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font
+}
+.gold{
+  color: #6a3f08;
+}
+
+.bluu{
+    color: #6a3f08;
+    /* option */
+    color: #444444 }
+
+.row-cols-xl-1{
+     color: #6a3f08;
+    font-weight:bolder;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+   
+
+}
+.mtitle{
+    text-align: center;
+    color: rgb(30, 30, 114);
+    /* color: #28ABE2; */
+    /* color: #C89F5D; */
+    text-decoration-line: underline;
+    text-decoration-style:solid;
+}
+
+.gender-selection {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-size: x-large;
+  }
+  
+  .custom-dropdown {
+    /* option1 */
+    background-color: #6a3f08
+
+    /* background-color: black;  Black background */
+    color: white;  /* White text */
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Override Bootstrap to ensure it always drops down
+  .custom-dropdown:focus {
+    border-color: #2772db; 
+    outline: none;
+  } */
+  
+  
+  .custom-dropdown option {
+    color: #6a3f08
+    /* color: black; */
+    background-color:#6a3f08;
+    font-family: Arial, Helvetica, sans-serif;
+    font: weight 900px;;
+  }
+  
+  .course textarea {
+    background-color: #6a3f08
+    /* background-color: black;  */
+    color: rgb(217, 217, 217); 
+    border: 2px solid #111316; 
+    padding: 10px; /
+    font-size: 16px; 
+    border-radius: 5px; 
+    width: 100%;
+  }
+  .Skill input{
+    /* color: #6a3f08
+    background-color: #111316; */
+    color: white;
+  }
+  .occupation input {
+    /* background-color: #111316; */
+    color: white;
+  }
+  .skills textarea{
+    /* background-color: black;  */
+    color: rgb(217, 217, 217); 
+    border: 2px solid #111316; 
+    padding: 10px; /
+    font-size: 16px; 
+    border-radius: 5px; 
+    width: 100%;
+  }
+  .btn{
+    background-color: #C89F5D;
+    color: #6a3f08;
+    font-size: larger;
+    font-weight: bold;
+    border-bottom: 30%;
+    border: 100px;
+    
+  }
